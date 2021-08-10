@@ -1,0 +1,12 @@
+.chat-body {
+    overflow-y: auto;
+    height: 100%;
+    padding: 5px;
+}
+.chat-body__message {
+    display: flex;
+    align-items: flex-end;
+}
+.chat-body__typing-indicator {
+    display: flex;
+}

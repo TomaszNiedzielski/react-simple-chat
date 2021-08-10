@@ -1,0 +1,11 @@
+.chat-message__avatar {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 2px;
+}
+.chat-message__avatar img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}

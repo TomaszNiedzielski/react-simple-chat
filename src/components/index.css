@@ -1,0 +1,20 @@
+@import './avatar/Avatar.css';
+@import './body/Body.css';
+@import './bubble/Bubble.css';
+@import './chat/Chat.css';
+@import './header/Header.css';
+@import './input/Input.css';
+@import './timestamp/Timestamp.css';
+@import './typing_indicator/TypingIndicator.css';
+@import './widget/Widget.css';
+
+/* some global styles */
+.d-flex {
+    display: flex;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}

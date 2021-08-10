@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders bubble avatar 1`] = `
+<div
+  className="chat-message__avatar"
+>
+  <img
+    alt="avatar"
+    src=""
+  />
+</div>
+`;
