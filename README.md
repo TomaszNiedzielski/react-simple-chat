@@ -43,10 +43,10 @@ const [messages, setMessages] = useState<Message[]>([
 | headerAvatar | none | string | Chat avatar photo url. |
 | title | Chat Demo | string | Title of chat. |
 | minimized | false | boolean | Describes if chat is minimized or not. |
-| user | none | object | np. user: { id: 1 }, User object needs to have id property which defines who sent the message. |
+| user | none | object | e.g. user: { id: 1 }, User object needs to have id property which defines who sent the message. |
 | onSend | none | function | Returns message object when click send button. |
 | messages | none | array | List of messages |
-| isTyping | false | boolean | Shows typing indicator when set to true. |
+| isTyping | false | boolean | Show typing indicator. |
 | onInputTextChanged | none | function | Returns value of message input when text changed. |
 | headerStyle | none | object | Object styles for header component. |
 | titleColor | none | string | Color of title in header. |
